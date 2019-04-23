@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:100,300,400,400i,700,900");
+
+body {
+    font-family: "Lato", sans-serif; }
+
+.wrapper {
+    width: 1140px;
+    margin: 0 auto;
+    box-sizing: border-box; }
+
+.flex_jc-sb {
+    display: flex;
+    justify-content: space-between; }
+
+.center {
+    text-align: center; }
+
+.popular {
+    margin-top: 50px;
+    margin-bottom: 112px; }
+    .popular__h2 {
+        color: #222222;
+        font-size: 30px;
+        margin-top: 0;
+        margin-bottom: 11px; }
+    .popular__p {
+        color: #9f9f9f;
+        font-size: 14px;
+        font-weight: 400;
+        margin-top: 0;
+        margin-bottom: 60px; }
+
+.products {
+    flex-wrap: wrap;
+    margin-bottom: 19px; }
+
+.product {
+    width: 263px;
+    background-color: #ffffff;
+    margin-bottom: 39px;
+    position: relative; }
+    .product:hover .product__modal {
+        display: flex; }
+    .product:hover .product__img {
+        filter: brightness(50%); }
+    .product:hover .product {
+        box-shadow: 0 5px 8px rgba(0, 0, 0, 0.16); }
+    .product__photo-container {
+        height: 280px; }
+    .product__photo {
+        display: block;
+        height: 100%;
+        text-decoration: none; }
+    .product__img {
+        width: 100%;
+        height: 100%; }
+    .product__info {
+        padding: 20px 15px;
+        text-align: left; }
+    .product__d {
+        align-items: center; }
+    .product__name {
+        color: #222222;
+        font-size: 13px;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin: 0 0 14px 0; }
+    .product__price {
+        color: #f16d7f;
+        font-size: 16px;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin: 0; }
+    .product__rating {
+        margin: 0;
+        display: flex;
+        align-items: center; }
+    .product__i-rate {
+        cursor: pointer;
+        color: #e4af48;
+        font-size: 13px; }
+    .product__modal {
+        position: absolute;
+        top: 94px;
+        display: none;
+        justify-content: center;
+        width: 263px; }
+    .product__add {
+        box-sizing: border-box;
+        background: url("img/product__add.svg") no-repeat;
+        background-position-y: center;
+        background-position-x: 12px;
+        height: 39px;
+        border: 1px solid #ffffff;
+        display: block;
+        padding-right: 13px;
+        padding-left: 43px;
+        font-size: 13px;
+        color: #ffffff;
+        font-weight: 700;
+        text-decoration: none;
+        line-height: 39px; }
+    .product__add:hover {
+        box-shadow: 0 0 8px #fff; }

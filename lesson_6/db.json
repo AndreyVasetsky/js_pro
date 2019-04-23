@@ -1,0 +1,50 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Бананы",
+      "price": 65
+    },
+    {
+      "id": 2,
+      "name": "Киви",
+      "price": 90
+    },
+    {
+      "id": 3,
+      "name": "Виноград",
+      "price": 120
+    },
+    {
+      "id": 4,
+      "name": "Ежевика",
+      "price": 100
+    }
+  ],
+  "cart": [
+    {
+      "id": 1,
+      "name": "Бананы",
+      "price": 65,
+      "quantity": 2
+    },
+    {
+      "id": 2,
+      "name": "Киви",
+      "price": 90,
+      "quantity": 1
+    },
+    {
+      "id": 3,
+      "name": "Виноград",
+      "price": 120,
+      "quantity": 2
+    },
+    {
+      "id": 4,
+      "name": "Ежевика",
+      "price": 100,
+      "quantity": 1
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+<meta charset="UTF-8">
+
+<script>
+    "use strict";
+
+    // 1 - Дан  большой текст, в котором для оформления
+    // прямой речи используются одинарные кавычки.
+    // Придумать шаблон, который заменяет
+    // одинарные кавычки на двойные.
+
+    const str = `He said, 'I drive a car'.\n
+            She said, 'I am working'.\n
+            They said, 'We have cooked dinner'.\n
+            She said, 'I will read the book'.\n
+            He said, 'I called you'.
+            aren't aren't aren't `;
+
+    let regexp = /'/g;
+
+    console.log(str.replace(regexp, '"'));
+
+    // 2- Улучшить шаблон так, чтобы в конструкциях типа aren't
+    // одинарная кавычка  не заменялась на двойную.
+
+    regexp = /('\B|\B')/g;
+
+    console.log(str.replace(regexp, '"'));
+
+</script>

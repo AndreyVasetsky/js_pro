@@ -1,0 +1,25 @@
+{
+  "name": "js2-18.03",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine",
+    "build": "webpack --mode production",
+    "dev": "webpack --mode development"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "moment": "^2.24.0",
+    "vue": "^2.6.10"
+  },
+  "devDependencies": {
+    "jasmine": "^3.4.0",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  }
+}
